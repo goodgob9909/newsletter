@@ -62,5 +62,24 @@
         </ul>
         <p><a href="https://hanyang3d.kr/">홈페이지</a></p>
     </section>
+    <section id="quote">
+        <h2>견적 요청</h2>
+        <form action="submit_quote.php" method="POST">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="company">회사명:</label>
+            <input type="text" id="company" name="company" required><br><br>
+    
+            <label for="details">프로젝트 세부사항:</label><br>
+            <textarea id="details" name="details" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="견적 요청">
+        </form>
+    </section>
+    
 </body>
 </html>
